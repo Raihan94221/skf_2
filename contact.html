@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKF Corporations</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>SKF</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./images/menu-icon.svg" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="container">
+        <form action="#">
+            <h1>Get in touch</h1>
+
+            <div class="inputsWrapper">
+                <input type="text"  placeholder="Your Name">
+                <input type="text"  placeholder="Phone Number">
+                <input type="text"  placeholder="Email">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button class="primary-btn">SEND NOW</button>
+            </div>
+        </form>
+
+        <div class="address">
+            <h1>Talk to us</h1>
+
+            <div class="detailsWrapper">
+                <div class="detail">
+                    <div class="text">
+                        <h5>EMAIL</h5>
+                        <p>skfmamoon@gmail.com</p>
+                    </div>
+
+                </div>
+                <div class="detail">
+                    <div class="text">
+                        <h5>Phone Number</h5>
+                        <p>+8801723773748</p>
+                        <p>+8801308715125</p>
+                    </div>
+
+                </div>
+                <div class="detail">
+                    <div class="text">
+                        <h5>Address</h5>
+                        <p>MS Tower 8/1, Armanian Street, <br>
+                        Armanitola, Dhaka-1100</p>
+                    </div>
+
+                </div>
+            
+        </div>
+    </section>
+
+
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <h1 class="logo">SKF</h1>
+        <p>©2025 SKF Corporations. All right reserved.</p>
+    </footer>
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+
+        })
+    
+    </script>
+</body>
+</html>

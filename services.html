@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - SKF Corporations</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>SKF</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./images/menu-icon.svg" alt=""></div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h1>Our Services</h1>
+        <div class="service">
+            <h2>Chemical Supply</h2>
+            <p>We provide a wide range of chemical products tailored to meet the needs of various industries, ensuring quality and compliance with safety standards.</p>
+        </div>
+        <div class="service">
+            <h2>Custom Formulations</h2>
+            <p>Our team of experts can develop custom chemical formulations to meet specific requirements, helping you achieve optimal results in your applications.</p>
+        </div>
+        <div class="service">
+            <h2>Technical Support</h2>
+            <p>We offer comprehensive technical support to assist our clients in product selection, application guidance, and troubleshooting.</p>
+        </div>
+        <div class="service">
+            <h2>Logistics and Distribution</h2>
+            <p>Our efficient logistics network ensures timely delivery of products, minimizing downtime and maximizing productivity for our clients.</p>
+        </div>
+        <div class="service">
+            <h2>After Sales Service</h2>
+            <p>We are committed to customer satisfaction, providing ongoing support and addressing any concerns after the purchase.</p>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <h1 class="logo">SKF</h1>
+        <p>©2025 SKF Corporations. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
