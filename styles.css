@@ -105,7 +105,7 @@ nav .logo {
     margin-top: 120px;
     gap: 30px;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .service {
@@ -113,8 +113,10 @@ nav .logo {
 }
 #services h1 {
     display: block;
-    /*width: 100%;
+    flex: 0 0 100%;
     text-align: center;
+    padding-bottom: 10px;
+    /*width: 100%;
     flex-grow: 0;*/
 }
 .service p{
@@ -161,7 +163,25 @@ nav .logo {
     width: 50%;
     height: 350px;
 }
+#products h1 {
+    padding-top: 30px;
 
+}
+#products p {
+    padding-top: 20px;
+}
+.product-category h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.product-notes h3 {
+    padding-top: 20px;
+}
+.product-notes p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* Products list: multi-column layout */
 .product-category ul {
     columns: 2;                 
@@ -200,6 +220,10 @@ nav .logo {
 .talk-to-us-content p {
     max-width: 500px;
 }
+#contact-us h1 {
+    padding-top: 30px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -434,7 +458,11 @@ img {
 
     /* make footer stack, center text */
     footer { flex-direction: column; gap: 12px; text-align: center; }
+    footer ul {
+        gap : 12px;
+    }
 }
+   
 
 
 .section-overlay {
