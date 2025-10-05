@@ -25,7 +25,7 @@ a {
 #header {
     width: 100vw;
     min-height: 100vh;
-    background-image: url("./images/main2.jpg");
+    background-image: url("./images/main21.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -105,16 +105,25 @@ nav .logo {
     margin-top: 120px;
     gap: 30px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
+
 .service {
     width: 300px;
 }
+#services h1 {
+    display: block;
+    /*width: 100%;
+    text-align: center;
+    flex-grow: 0;*/
+}
 .service p{
     color: gray;
+    padding-top: 20px;
 }
 .service img{
     max-width: 100%;
+    padding-bottom: 20px;
 }
 
 #about {
@@ -129,11 +138,22 @@ nav .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 20px;
+}
+.about-content li {
+    padding-top: 10px;
 }
 .about-content h1 {
     font-size: 32px;
     color: var(--primary-dark);
     text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.about-content p {
+    padding-top: 20px;
+}
+.about-content h2 {
+    padding-top: 20px;
 }
 .about-img {
     /* max-width: 100%; */
@@ -160,7 +180,7 @@ nav .logo {
 #talk-to-us {
     background-image: url(./images/services3.jpg);
     background-size: cover;
-    background-position: centre;
+    background-position: top;
     min-height: 500px;
     margin-top: 120px;
 }
@@ -197,7 +217,7 @@ footer .logo {
 /*about page*/
 #about-header {
     min-height: 600px;
-    background-image: url(./images/about.jpg);
+    background-image: url(./images/about1.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -205,7 +225,7 @@ footer .logo {
 /*services page*/
 #services-header {
     min-height: 600px;
-    background-image: url(./images/44.jpg);
+    background-image: url(./images/441.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -213,7 +233,7 @@ footer .logo {
 /*products page*/
 #products-header {
     min-height: 600px;
-    background-image: url(./images/products.jpg);
+    background-image: url(./images/products1.jpg);
     background-size: cover;
     background-position: top; 
 }
@@ -224,9 +244,9 @@ footer .logo {
 /*contact page */
 #contact-header {
     min-height: 600px;
-    background-image: url(./images/services3.jpg);
+    background-image: url(./images/services31.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
 }
 #contact-us {
     display: flex;
