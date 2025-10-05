@@ -177,6 +177,30 @@ footer ul {
 footer .logo {
     color: var(--primary-dark)
 }
+/*about page*/
+#about-header {
+    min-height: 600px;
+    background-image: url(./images/about.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+/*services page*/
+#services-header {
+    min-height: 600px;
+    background-image: url(./images/44.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+/*products page*/
+#products-header {
+    min-height: 600px;
+    background-image: url(./images/products.jpg);
+    background-size: cover;
+    background-position: top; 
+}
+
 
 
 
